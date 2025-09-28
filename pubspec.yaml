@@ -1,0 +1,37 @@
+name: tinytuya
+description: A Dart port of the TinyTuya Python library for controlling Tuya smart devices over the local network using the Tuya protocol.
+version: 1.0.0
+homepage: https://github.com/your-username/tinytuya-dart
+repository: https://github.com/your-username/tinytuya-dart
+issue_tracker: https://github.com/your-username/tinytuya-dart/issues
+documentation: https://github.com/your-username/tinytuya-dart#readme
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  crypto: ^3.0.3
+  convert: ^3.1.1
+  pointycastle: ^3.7.3
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
+  coverage: ^1.8.0
+  very_good_analysis: ^6.0.0
+
+topics:
+  - iot
+  - smart-home
+  - tuya
+  - home-automation
+  - dart
+  - flutter
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
